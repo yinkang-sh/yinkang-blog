@@ -1,5 +1,5 @@
 # Site settings
-title: yinkang-site
+title: yinkang-blogs
 description: '尹康的技术博客' # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
