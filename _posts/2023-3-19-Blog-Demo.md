@@ -1,4 +1,3 @@
-```
 ---
 layout: post
 read_time: true
@@ -11,4 +10,3 @@ tags: [machine learning, coding, neural networks, python]
 author: Armando Maynez
 github: amaynez/GenericNeuralNetwork/
 ---
-```
