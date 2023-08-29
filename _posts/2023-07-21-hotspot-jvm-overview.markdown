@@ -109,7 +109,7 @@ class NetworkClassLoader extends ClassLoader {
 
 ## 3. 运行数据区（Runtime Data Area）
 
-<center><img src='./assets/img/posts/jvm-overview/untime-data-area.png'></center>
+<center><img src='./assets/img/posts/jvm-overview/runtime-data-area.png'></center>
 
 JVM的运行数据区分为5个部分：
 
