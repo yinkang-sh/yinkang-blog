@@ -5,7 +5,7 @@ show_date: true
 title:  Hotspot runtime system
 date:   2023-7-21 13:32:20 -0600
 description: JVM概述
-img: /assets/img/posts/jvm-overview/jvm-architecture.png
+img: assets/img/posts/jvm-overview/jvm-architecture.png
 tags: [java, jvm, ClassLoader, Runtime Memory/Data Area, Execution Engin]
 author: 尹康
 github:  -
@@ -44,7 +44,7 @@ JVM设计的初衷是希望能让某些编程语言可以一次编写，到处�
 2. Runtime Memory/Data Area，运行数据区
 3. Execution Engine，运行引擎
 
-![jvm-architecture](/assets/img/posts/jvm-overview/jvm-architecture.png)
+![jvm-architecture](assets/img/posts/jvm-overview/jvm-architecture.png)
 
 接下来我们详细介绍这三个组件。
 
@@ -52,7 +52,7 @@ JVM设计的初衷是希望能让某些编程语言可以一次编写，到处�
 
 针对某个字节码文件中所代表的类，如果我们在Java应用中需要使用到这个类，那么我们的JVM将首先通过类加载器机制将这个类装载到内存（JVM的运行数据区）中。整个类加载机制有三个主要的阶段：加载（loading）/链接（linking）/初始化（initialization）。
 
-![classlaoder](/assets/img/posts/jvm-overview/classlaoder.png)
+![classlaoder](assets/img/posts/jvm-overview/classlaoder.png)
 
 下面我们将详细介绍每个阶段JVM都做了什么。
 
@@ -109,7 +109,7 @@ class NetworkClassLoader extends ClassLoader {
 
 ## 3. 运行数据区（Runtime Data Area）
 
-![runtime-data-area](/assets/img/posts/jvm-overview/untime-data-area.png)
+![runtime-data-area](assets/img/posts/jvm-overview/untime-data-area.png)
 
 JVM的运行数据区分为5个部分：
 
@@ -164,7 +164,7 @@ JVM的运行数据区分为5个部分：
 
 但是在运行内存中的代码之前，我们需要将这些字节码的指令转换为相应平台的机器指令。JVM采用以下的`Interpreter`或者`JIT`编译器来完成这个转换过程，同时为了保证程序正常的运行，JVM提供了自动的垃圾回收机制。下面是执行引擎的三个部分，接下来我们详细介绍每个部分。
 
-![Execution Engine](/assets/img/posts/jvm-overview/Execution Engine.png)
+![Execution Engine](assets/img/posts/jvm-overview/Execution Engine.png)
 
 ### 4.1 Interpreter（解释器，翻译器）
 
