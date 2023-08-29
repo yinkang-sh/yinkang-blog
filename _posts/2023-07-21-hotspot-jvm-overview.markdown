@@ -8,7 +8,7 @@ description: JVM概述.
 img: assets/img/posts/jvm-overview/jvm-architecture.png 
 tags: [java, jvm, ClassLoader, Runtime Memory/Data Area, Execution Engin]
 author: 尹康
-github:  -
+github: yinkang-sh/yinkang-blog
 mathjax: yes
 ---
 
