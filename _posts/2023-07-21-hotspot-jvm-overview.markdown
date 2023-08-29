@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title:  Hotspot runtime system
+title:  JVM 架构
 date:   2023-7-21 13:32:20 -0600
 description: JVM概述.
 img: posts/jvm-overview/jvm-architecture.png 
